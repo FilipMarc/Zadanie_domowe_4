@@ -2,7 +2,7 @@ package tv;
 
 public class TelevisorTest {
     public static void main(String[] args) {
-        Televisor televisor = new Televisor("Wyłączony");
+        Televisor televisor = new Televisor();
         televisor.showStatus();
 
         System.out.println("Turn on tv");
