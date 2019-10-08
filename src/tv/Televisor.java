@@ -1,18 +1,18 @@
 package tv;
 
 public class Televisor {
-    String tvTurnedOnOff = "Wyłączony";
+    String tvSwitch = "Wyłączony";
 
 
     public void turnOn(){
-        tvTurnedOnOff = "Włączony";
+        tvSwitch = "Włączony";
     }
 
     public void  turnOff(){
-        tvTurnedOnOff = "Wyłączony";
+        tvSwitch = "Wyłączony";
     }
 
     public void showStatus(){
-        System.out.println(tvTurnedOnOff);
+        System.out.println(tvSwitch);
     }
 }

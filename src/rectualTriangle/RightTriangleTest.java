@@ -2,7 +2,7 @@ package rectualTriangle;
 
 public class RightTriangleTest {
     public static void main(String[] args) {
-        Triangle triangle = new Triangle(2,4,5);
+        Triangle triangle = new Triangle(4,6,8);
         RightTriangle rightTriangle = new RightTriangle();
         boolean rectualTriangle = rightTriangle.isRightTriangle(triangle);
 
