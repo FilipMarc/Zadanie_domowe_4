@@ -2,23 +2,21 @@ package figures;
 
 public class ShapeCalculatorTest {
     public static void main(String[] args) {
-        ShapeCalculator shapeCalculator = new ShapeCalculator();
-
         Square square = new Square(10);
-        Circle circle = new Circle(5);
-        Triangle triangle = new Triangle(3,4,5);
-        Rectangle rectangle = new Rectangle(5,10);
-
-        double sqrAr = shapeCalculator.squareAre(square);
+        double sqrAr = square.squareAre();
         System.out.println("Square Area: " + sqrAr);
 
-        double circleAr = shapeCalculator.circleAre(circle);
+        Circle circle = new Circle(5);
+        double circleAr = circle.circleAre();
         System.out.println("Circle Are: " + circleAr);
 
-        double trianglePer = shapeCalculator.trianglePerimeter(triangle);
+        Triangle triangle = new Triangle(3,4,5);
+        double trianglePer = triangle.trianglePerimeter();
         System.out.println("Triangle Perimeter: " + trianglePer);
 
-        double rectPer = shapeCalculator.rectPerimeter(rectangle);
+
+        Rectangle rectangle = new Rectangle(5,10);
+        double rectPer = rectangle.rectPerimeter();
         System.out.println("Rectangle Perimeter: " + rectPer);
 
     }

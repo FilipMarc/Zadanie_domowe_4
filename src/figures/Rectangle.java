@@ -8,4 +8,9 @@ public class Rectangle {
         this.sideA = sideA;
         this.sideB = sideB;
     }
+
+    public double rectPerimeter(){
+        double recPer = 2 *( sideA + sideB);
+        return recPer;
+    }
 }

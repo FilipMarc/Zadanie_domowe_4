@@ -6,4 +6,9 @@ public class Square {
     public Square(double side) {
         this.side = side;
     }
+
+    public double squareAre(){
+        double squrAre = side * side;
+        return squrAre;
+    }
 }

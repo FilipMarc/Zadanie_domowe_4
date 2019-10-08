@@ -10,4 +10,9 @@ public class Triangle {
         this.sideB = sideB;
         this.sideC = sideC;
     }
+
+    public double trianglePerimeter(){
+        double triangPer = sideA + sideB + sideC;
+        return triangPer;
+    }
 }
